@@ -36,7 +36,7 @@ Mobile.tap(findTestObject('Object Repository/Register page/Btn_OK in date calend
 
 Mobile.setText(findTestObject('Object Repository/Register page/Field_Email'), 'contoh@mail.com', 0)
 
-Mobile.setText(findTestObject('Object Repository/Register page/Field_Whatsapp-number'), '081122223333', 0)
+Mobile.setText(findTestObject('Object Repository/Register page/Field_Whatsapp-number'), '081234567', 0)
 
 Mobile.setText(findTestObject('Object Repository/Register page/Field_Kata sandi'), 'Adittest1', 0)
 
