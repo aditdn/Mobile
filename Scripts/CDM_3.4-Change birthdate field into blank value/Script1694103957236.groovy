@@ -33,10 +33,11 @@ Mobile.tap(findTestObject('Object Repository/Profile/Btn-icon gear profile'), 0)
 
 Mobile.tap(findTestObject('Object Repository/Profile/Btn-Edit profile-profile page'), 0)
 
-Mobile.setText(findTestObject('Edit profile/Field-Fullname-Edit profile page'), '', 0)
+Mobile.tap(findTestObject('Edit profile/Btn-icon calendar-edit profile page'), 0, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.verifyElementText(findTestObject('Edit profile/Text-Cannot be empty and must be alphabetically-Edit profile page'), 
-    'Cannot be empty and must be alphabetically')
+Mobile.tap(findTestObject('Edit profile/Btn-Cancel select date-Edit page'), 0)
+
+Mobile.verifyElementText(findTestObject('Edit profile/Text-Birthdate cant be empty warning-Edit Profile'), 'Birthdate cant be empty')
 
 Mobile.closeApplication()
 
