@@ -33,7 +33,7 @@ Mobile.tap(findTestObject('Object Repository/Profile/Btn-icon gear profile'), 0)
 
 Mobile.tap(findTestObject('Object Repository/Profile/Btn-Edit profile-profile page'), 0)
 
-Mobile.setText(findTestObject('Edit profile/Field-Fullname-Edit profile page'), 'testing changes', 0)
+Mobile.setText(findTestObject('Edit profile/Field-Phone-Edit profil page'), '0811222233334', 0)
 
 Mobile.tap(findTestObject('Object Repository/Edit profile/Btn-Save changes-edit profile'), 0)
 
