@@ -26,28 +26,9 @@ Mobile.tap(findTestObject('Object Repository/Register page/Btn_Register, now_Foo
 Mobile.verifyElementText(findTestObject('Object Repository/Register page/Text_Enter register page_Lets join our community'), 
     'Lets join our community!')
 
-Mobile.setText(findTestObject('Object Repository/Register page/Field-Nama'), 'testing', 0)
+Mobile.setText(findTestObject('Object Repository/Register page/Field-Nama'), 'Test123', 0)
 
-Mobile.tap(findTestObject('Object Repository/Register page/Btn-Date_icon'), 0)
-
-Mobile.tap(findTestObject('Object Repository/Register page/Btn_Date-number-1-Tanggal-lahir'), 0)
-
-Mobile.tap(findTestObject('Object Repository/Register page/Btn_OK in date calendar'), 0)
-
-Mobile.setText(findTestObject('Object Repository/Register page/Field_Email'), 'contoh@mail.com', 0)
-
-Mobile.setText(findTestObject('Object Repository/Register page/Field_Whatsapp-number'), '081122223333', 0)
-
-Mobile.setText(findTestObject('Object Repository/Register page/Field_Kata sandi'), 'Adittest1', 0)
-
-Mobile.setText(findTestObject('Object Repository/Register page/Field_Konfirmasi kata sandi'), 'Adittest1', 0)
-
-Mobile.tap(findTestObject('Object Repository/Register page/Checkbox_Term and condition'), 0)
-
-Mobile.tap(findTestObject('Register page/Btn_Daftar'), 0)
-
-Mobile.verifyElementText(findTestObject('Object Repository/Verification email page/Text_We have sended link of verification to your email'), 
-    'We have sended link of verification to your email')
+Mobile.verifyElementText(findTestObject('Register page/Text-Name must be alphabetic - warning field name'), 'Name must be alphabetic')
 
 Mobile.closeApplication()
 
