@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>CDM_1.1-Register new account - Copy</name>
+   <name>CDM_3.1-Change Fullname in Profile</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>8255a68e-337e-47f3-9bf0-cc9895093416</testCaseGuid>
+   <testCaseGuid>2487538f-ec35-40cc-9cb4-b13c9017b6bd</testCaseGuid>
 </TestCaseEntity>
