@@ -28,7 +28,7 @@ Mobile.verifyElementText(findTestObject('Object Repository/Register page/Text_En
 
 Mobile.setText(findTestObject('Object Repository/Register page/Field_Whatsapp-number'), '08123456', 0)
 
-Mobile.verifyElementText(findTestObject('Register page/Text-WhatsApp number must be 9-13 character-warning field Whatsapp'), 
+Mobile.verifyElementText(findTestObject('Register page/Text_WhatsApp number must be 9-13 character-warning field Whatsapp'), 
     'WhatsApp number must be 9-13 character')
 
 Mobile.closeApplication()

@@ -28,7 +28,7 @@ Mobile.verifyElementText(findTestObject('Object Repository/Register page/Text_En
 
 Mobile.setText(findTestObject('Object Repository/Register page/Field_Email'), 'contoh@mail', 0)
 
-Mobile.verifyElementText(findTestObject('Register page/Text- Format email is not valid-field email warning'), 'Format email is not valid')
+Mobile.verifyElementText(findTestObject('Register page/Text_Format email is not valid-field email warning'), 'Format email is not valid')
 
 Mobile.closeApplication()
 

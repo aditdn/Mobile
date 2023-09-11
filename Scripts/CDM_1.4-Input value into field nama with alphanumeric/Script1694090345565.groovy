@@ -26,9 +26,9 @@ Mobile.tap(findTestObject('Object Repository/Register page/Btn_Register, now_Foo
 Mobile.verifyElementText(findTestObject('Object Repository/Register page/Text_Enter register page_Lets join our community'), 
     'Lets join our community!')
 
-Mobile.setText(findTestObject('Object Repository/Register page/Field-Nama'), 'Test123', 0)
+Mobile.setText(findTestObject('Object Repository/Register page/Field_Nama'), 'Test123', 0)
 
-Mobile.verifyElementText(findTestObject('Register page/Text-Name must be alphabetic - warning field name'), 'Name must be alphabetic')
+Mobile.verifyElementText(findTestObject('Register page/Text_Name must be alphabetic - warning field name'), 'Name must be alphabetic')
 
 Mobile.closeApplication()
 

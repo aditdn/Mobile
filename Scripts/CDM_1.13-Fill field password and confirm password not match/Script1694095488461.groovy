@@ -30,7 +30,7 @@ Mobile.setText(findTestObject('Object Repository/Register page/Field_Kata sandi'
 
 Mobile.setText(findTestObject('Object Repository/Register page/Field_Konfirmasi kata sandi'), 'Test12', 0)
 
-Mobile.verifyElementText(findTestObject('Register page/text - Password not match - warning password and confirm password'), 
+Mobile.verifyElementText(findTestObject('Register page/text_Password not match - warning password and confirm password'), 
     'Password not match')
 
 Mobile.closeApplication()

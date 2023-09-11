@@ -21,23 +21,23 @@ Mobile.startApplication('D:\\Users\\bsi80197\\Downloads\\DemoAppV2 (1).apk', tru
 
 Mobile.tap(findTestObject('Homepage/Btn_Login-Here'), 0)
 
-Mobile.setText(findTestObject('Login Page/Field-Email-Login Page'), 'aditya.dwinugraha@mail.ugm.ac.id', 0)
+Mobile.setText(findTestObject('Login Page/Field_Email-Login Page'), 'aditya.dwinugraha@mail.ugm.ac.id', 0)
 
-Mobile.setText(findTestObject('Login Page/Field-password-login page'), 'Adittest1', 0)
+Mobile.setText(findTestObject('Login Page/Field_password-login page'), 'Adittest1', 0)
 
-Mobile.tap(findTestObject('Login Page/Btn-Login'), 0)
+Mobile.tap(findTestObject('Login Page/Btn_Login'), 0)
 
 Mobile.tap(findTestObject('Homepage/Btn_icon profile-homepage-already login'), 0)
 
-Mobile.tap(findTestObject('Object Repository/Profile/Btn-icon gear profile'), 0)
+Mobile.tap(findTestObject('Object Repository/Profile/Btn_icon gear profile'), 0)
 
-Mobile.tap(findTestObject('Object Repository/Profile/Btn-Edit profile-profile page'), 0)
+Mobile.tap(findTestObject('Object Repository/Profile/Btn_Edit profile-profile page'), 0)
 
-Mobile.tap(findTestObject('Edit profile/Btn-icon calendar-edit profile page'), 0, FailureHandling.STOP_ON_FAILURE)
+Mobile.tap(findTestObject('Edit profile/Btn_icon calendar-edit profile page'), 0, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.tap(findTestObject('Edit profile/Btn-Cancel select date-Edit page'), 0)
+Mobile.tap(findTestObject('Edit profile/Btn_Cancel select date-Edit page'), 0)
 
-Mobile.verifyElementText(findTestObject('Edit profile/Text-Birthdate cant be empty warning-Edit Profile'), 'Birthdate cant be empty')
+Mobile.verifyElementText(findTestObject('Edit profile/Text_Birthdate cant be empty warning-Edit Profile'), 'Birthdate cant be empty')
 
 Mobile.closeApplication()
 
