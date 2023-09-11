@@ -21,26 +21,26 @@ Mobile.startApplication('D:\\Users\\bsi80197\\Downloads\\DemoAppV2 (1).apk', tru
 
 Mobile.tap(findTestObject('Homepage/Btn_Login-Here'), 0)
 
-Mobile.setText(findTestObject('Login Page/Field-Email-Login Page'), 'aditya.dwinugraha@mail.ugm.ac.id', 0)
+Mobile.setText(findTestObject('Login Page/Field_Email-Login Page'), 'aditya.dwinugraha@mail.ugm.ac.id', 0)
 
-Mobile.setText(findTestObject('Login Page/Field-password-login page'), 'Adittest1', 0)
+Mobile.setText(findTestObject('Login Page/Field_password-login page'), 'Adittest1', 0)
 
-Mobile.tap(findTestObject('Login Page/Btn-Login'), 0)
+Mobile.tap(findTestObject('Login Page/Btn_Login'), 0)
 
 Mobile.tap(findTestObject('Homepage/Btn_icon profile-homepage-already login'), 0)
 
-Mobile.tap(findTestObject('Object Repository/Profile/Btn-icon gear profile'), 0)
+Mobile.tap(findTestObject('Object Repository/Profile/Btn_icon gear profile'), 0)
 
-Mobile.tap(findTestObject('Object Repository/Profile/Btn-Edit profile-profile page'), 0)
+Mobile.tap(findTestObject('Object Repository/Profile/Btn_Edit profile-profile page'), 0)
 
-Mobile.setText(findTestObject('Edit profile/Field-Phone-Edit profil page'), '0811222233334', 0)
+Mobile.setText(findTestObject('Edit profile/Field_Phone-Edit profil page'), '0811222233334', 0)
 
-Mobile.tap(findTestObject('Object Repository/Edit profile/Btn-Save changes-edit profile'), 0)
+Mobile.tap(findTestObject('Object Repository/Edit profile/Btn_Save changes-edit profile'), 0)
 
-Mobile.verifyElementText(findTestObject('Object Repository/Edit profile/Text - Your profile has been successfully updated - edit profile page'), 
+Mobile.verifyElementText(findTestObject('Object Repository/Edit profile/Text_Your profile has been successfully updated - edit profile page'), 
     'Your profile has been successfully updated.')
 
-Mobile.tap(findTestObject('Object Repository/Edit profile/Btn-Okay notification edit profile'), 0)
+Mobile.tap(findTestObject('Object Repository/Edit profile/Btn_Okay notification edit profile'), 0)
 
 Mobile.closeApplication()
 

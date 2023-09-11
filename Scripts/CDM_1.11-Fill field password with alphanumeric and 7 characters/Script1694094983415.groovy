@@ -28,7 +28,7 @@ Mobile.verifyElementText(findTestObject('Object Repository/Register page/Text_En
 
 Mobile.setText(findTestObject('Object Repository/Register page/Field_Kata sandi'), 'Test123', 0)
 
-Mobile.verifyElementText(findTestObject('Register page/Text-Password atleast must contain alphanumeric (a-Z,0-9) with minim 8 characters'), 
+Mobile.verifyElementText(findTestObject('Register page/Text_Password atleast must contain alphanumeric (a-Z,0-9) with minim 8 characters'), 
     'Password atleast must contain alphanumeric (a-Z,0-9) with minim 8 characters')
 
 Mobile.closeApplication()

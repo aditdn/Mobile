@@ -26,9 +26,9 @@ Mobile.tap(findTestObject('Object Repository/Register page/Btn_Register, now_Foo
 Mobile.verifyElementText(findTestObject('Object Repository/Register page/Text_Enter register page_Lets join our community'), 
     'Lets join our community!')
 
-Mobile.setText(findTestObject('Object Repository/Register page/Field-Nama'), 'testing', 0)
+Mobile.setText(findTestObject('Object Repository/Register page/Field_Nama'), 'testing', 0)
 
-Mobile.tap(findTestObject('Object Repository/Register page/Btn-Date_icon'), 0)
+Mobile.tap(findTestObject('Object Repository/Register page/Btn_Date_icon'), 0)
 
 Mobile.tap(findTestObject('Object Repository/Register page/Btn_Date-number-1-Tanggal-lahir'), 0)
 

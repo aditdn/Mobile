@@ -26,13 +26,13 @@ Mobile.tap(findTestObject('Object Repository/Register page/Btn_Register, now_Foo
 Mobile.verifyElementText(findTestObject('Object Repository/Register page/Text_Enter register page_Lets join our community'), 
     'Lets join our community!')
 
-Mobile.setText(findTestObject('Object Repository/Register page/Field-Nama'), 'testing', 0)
+Mobile.setText(findTestObject('Object Repository/Register page/Field_Nama'), 'testing', 0)
 
-Mobile.tap(findTestObject('Object Repository/Register page/Btn-Date_icon'), 0)
+Mobile.tap(findTestObject('Object Repository/Register page/Btn_Date_icon'), 0)
 
 Mobile.tap(findTestObject('Register page/Btn_Cancel_in_Date_icon'), 0)
 
-Mobile.verifyElementText(findTestObject('Register page/Text -Birthdate cant be empty- warning tanggal lahir'), 'Birthdate cant be empty')
+Mobile.verifyElementText(findTestObject('Register page/Text_Birthdate cant be empty- warning tanggal lahir'), 'Birthdate cant be empty')
 
 Mobile.closeApplication()
 

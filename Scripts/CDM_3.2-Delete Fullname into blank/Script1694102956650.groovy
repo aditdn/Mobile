@@ -21,21 +21,21 @@ Mobile.startApplication('D:\\Users\\bsi80197\\Downloads\\DemoAppV2 (1).apk', tru
 
 Mobile.tap(findTestObject('Homepage/Btn_Login-Here'), 0)
 
-Mobile.setText(findTestObject('Login Page/Field-Email-Login Page'), 'aditya.dwinugraha@mail.ugm.ac.id', 0)
+Mobile.setText(findTestObject('Login Page/Field_Email-Login Page'), 'aditya.dwinugraha@mail.ugm.ac.id', 0)
 
-Mobile.setText(findTestObject('Login Page/Field-password-login page'), 'Adittest1', 0)
+Mobile.setText(findTestObject('Login Page/Field_password-login page'), 'Adittest1', 0)
 
-Mobile.tap(findTestObject('Login Page/Btn-Login'), 0)
+Mobile.tap(findTestObject('Login Page/Btn_Login'), 0)
 
 Mobile.tap(findTestObject('Homepage/Btn_icon profile-homepage-already login'), 0)
 
-Mobile.tap(findTestObject('Object Repository/Profile/Btn-icon gear profile'), 0)
+Mobile.tap(findTestObject('Object Repository/Profile/Btn_icon gear profile'), 0)
 
-Mobile.tap(findTestObject('Object Repository/Profile/Btn-Edit profile-profile page'), 0)
+Mobile.tap(findTestObject('Object Repository/Profile/Btn_Edit profile-profile page'), 0)
 
-Mobile.setText(findTestObject('Edit profile/Field-Fullname-Edit profile page'), '', 0)
+Mobile.setText(findTestObject('Edit profile/Field_Fullname-Edit profile page'), '', 0)
 
-Mobile.verifyElementText(findTestObject('Edit profile/Text-Cannot be empty and must be alphabetically-Edit profile page'), 
+Mobile.verifyElementText(findTestObject('Edit profile/Text_Cannot be empty and must be alphabetically-Edit profile page'), 
     'Cannot be empty and must be alphabetically')
 
 Mobile.closeApplication()
